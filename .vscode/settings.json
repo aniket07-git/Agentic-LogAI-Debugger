@@ -1,0 +1,8 @@
+{
+  // Silence TypeScript validation errors from nested node_modules TS configs
+  "typescript.validate.enable": false,
+  // CSS: allow Tailwind at-rules in VS Code diagnostics
+  "css.lint.unknownAtRules": "ignore",
+  // Optional: reduce noise from JS validation for JS-only Vite apps
+  "javascript.validate.enable": true
+}
